@@ -1,0 +1,27 @@
+{
+    "name": "shorty/php_design_patterns",
+    "description": "Learning Design patterns with PHP",
+    "type": "project",
+    "require": {
+        "spatie/ray": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shorty\\PhpDesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edwin Arley Rincon Hneao"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "3.x-dev"
+    }
+}
